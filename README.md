@@ -13,16 +13,15 @@ Genera preguntas o notas médicas basadas en la transcripción de audio.
 - Method: `POST`
 - Endpoint: `https://apis.umasalud.com/ai/medical_qa`
 - Body:
-  - `text`: La transcripción de audio para generar preguntas o notas médicas.
-  - `step`: Indica la etapa del procesamiento ("first" o "second").
+  - `text`: Cadena de texto con la transcripción de audio para generar preguntas o notas médicas.
+  - `step`: Cadena de texto que indica la etapa del procesamiento ("first" o "second").
  
 #### Ejemplo de solicitud (first step)
 
 ```json
 {
-"text": 
-"Transcripción: "estoy con fiebre"
-"step":"first"
+"text": "estoy con fiebre"
+"step": "first"
 }
 ```
 
