@@ -18,6 +18,8 @@ Genera preguntas o notas médicas basadas en la transcripción de audio.
 
 ### First step
 
+- En el text del first step debemos darle la transcripción del audio o los síntomas por escrito.
+
 #### Ejemplo de solicitud (first step)
 
 ```json
@@ -29,7 +31,7 @@ Genera preguntas o notas médicas basadas en la transcripción de audio.
 
 #### Respuesta (first step)
 
-- Cuando `step` se establece en `"first"`, la respuesta será un objeto JSON que contiene las preguntas generadas.
+- Cuando `step` se establece en `"first"`, la respuesta será un string que contiene la transcripción y las preguntas generadas.
 
   Ejemplo de respuesta:
   
@@ -42,6 +44,8 @@ Genera preguntas o notas médicas basadas en la transcripción de audio.
 ### Second step
 
 #### Ejemplo de solicitud (second step)
+
+- En el text del second step debemos darle la transcripción y las preguntas generadas en el primer paso con las respuestas (Podemos responder una, algunas o todas las preguntas).
 
 ```json
 {
