@@ -15,7 +15,9 @@ Genera preguntas o notas médicas basadas en la transcripción de audio.
 - Body:
   - `text`: Cadena de texto con la transcripción de audio para generar preguntas o notas médicas.
   - `step`: Cadena de texto que indica la etapa del procesamiento ("first" o "second").
- 
+
+### First step
+
 #### Ejemplo de solicitud (first step)
 
 ```json
@@ -37,6 +39,7 @@ Genera preguntas o notas médicas basadas en la transcripción de audio.
 "Transcripción: estoy con fiebre\nInterrogatorio: ¿Desde cuándo tienes fiebre?\n¿Cuál es la temperatura de tu fiebre?\n¿Has tenido otros síntomas además de la fiebre?\n¿Has tomado algún medicamento para la fiebre?\n¿Has tenido contacto con alguien que esté enfermo?\n¿Has viajado recientemente?\n¿Has notado algún cambio en tu apetito o en tu peso?\n¿Has tenido alguna enfermedad reciente?"
 }
 ```
+### Second step
 
 #### Ejemplo de solicitud (second step)
 
