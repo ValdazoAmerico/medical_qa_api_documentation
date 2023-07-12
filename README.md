@@ -77,3 +77,9 @@ Genera preguntas o notas médicas basadas en la transcripción de audio.
   }
 }
 ```
+
+## Conclusión
+
+Esto concluye la documentación de la API del Asistente Médico. Si tienes alguna pregunta adicional o necesitas ayuda, por favor contacta a nuestro equipo de soporte en info@uma-health.com
+
+¡Gracias por utilizar nuestra API!
