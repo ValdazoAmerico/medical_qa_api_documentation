@@ -10,9 +10,9 @@ Genera preguntas o notas médicas basadas en la transcripción de audio.
 
 #### Solicitud
 
-- Método: `POST`
+- Method: `POST`
 - Endpoint: `https://apis.umasalud.com/ai/medical_qa`
-- Cuerpo de la solicitud:
+- Body:
   - `text`: La transcripción de audio para generar preguntas o notas médicas.
   - `step`: Indica la etapa del procesamiento ("first" o "second").
  
