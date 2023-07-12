@@ -43,7 +43,7 @@ Genera preguntas o notas médicas basadas en la transcripción de audio.
 ```json
 {
 "text": 
-"Transcripción: "estoy con fiebre\nInterrogatorio: ¿Desde cuándo tienes fiebre? Desde ayer\n¿Cuál es la temperatura de tu fiebre? 29\n¿Has tenido otros síntomas además de la fiebre? No\n¿Has tomado algún medicamento para la fiebre? Paracetamol\n¿Has tenido contacto con alguien que esté enfermo? No\n¿Has viajado recientemente? No\n¿Has notado algún cambio en tu apetito o en tu peso? No\n¿Has tenido alguna enfermedad reciente? No"
+"Transcripción: estoy con fiebre\nInterrogatorio: ¿Desde cuándo tienes fiebre? Desde ayer\n¿Cuál es la temperatura de tu fiebre? 29\n¿Has tenido otros síntomas además de la fiebre? No\n¿Has tomado algún medicamento para la fiebre? Paracetamol\n¿Has tenido contacto con alguien que esté enfermo? No\n¿Has viajado recientemente? No\n¿Has notado algún cambio en tu apetito o en tu peso? No\n¿Has tenido alguna enfermedad reciente? No"
 "step":"second"
 }
 ```
